@@ -34,22 +34,6 @@ Built using:
 
 ---
 
-Fake-Job-Post-Detector/
-│
-├── app.py ← Streamlit app script
-├── requirements.txt ← Python dependencies
-├── README.md ← Project documentation
-│
-├── models/
-│ ├── fake_job_detector_xgb.pkl ← Trained classifier
-│ └── tfidf_vectorizer.pkl ← TF-IDF vectorizer
-│
-├── data/
-│ └── fake_job_postings.xlsx ← Dataset (real or synthetic)
-│
-├── notebooks/
-│ └── Fake Job Post Detector.ipynb ← EDA, preprocessing, training
-
  Features
 -Clean and simple UI to paste job descriptions
 
